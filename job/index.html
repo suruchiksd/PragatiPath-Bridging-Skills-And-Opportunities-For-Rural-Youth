@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Skill-Up Jobs</title>
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="/home/index.html" class="navbar-logo">Student Skill-Up</a>
+        <ul class="navbar-menu">
+          <li><a href="/home/index.html">Home</a></li>
+          <li><a href="/news/index.html">News</a></li>
+          <li><a href="/courses/index.html">Courses</a></li>
+          <li><a href="/job/index.html">Jobs</a></li>
+          <li><a href="/qualification/index.html">Update Qualification</a></li>
+          <li><a href="/login/index.html">Logout</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section class="job-section">
+        <h1 class="title">Recommended Jobs</h1>
+        <div id="jobList" class="job-list">
+          <!-- Jobs will be dynamically inserted here -->
+          <div class="loading">Loading jobs...</div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

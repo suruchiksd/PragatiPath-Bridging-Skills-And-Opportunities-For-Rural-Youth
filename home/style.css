@@ -1,0 +1,121 @@
+.welcome-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-family: var(--ff-league_spartan);
+  font-size: var(--fs-1);
+  color: var(--kappel);
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: var(--fs-4);
+  color: var(--gray-web);
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.dashboard-item {
+  background-color: var(--white);
+  border-radius: var(--radius-10);
+  padding: 2rem;
+  box-shadow: var(--shadow-2);
+  text-align: center;
+}
+
+.dashboard-item h2 {
+  font-family: var(--ff-league_spartan);
+  font-size: var(--fs-3);
+  color: var(--eerie-black-1);
+  margin-bottom: 1rem;
+}
+
+.dashboard-item p {
+  font-size: var(--fs-6);
+  color: var(--gray-web);
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  font-family: var(--ff-league_spartan);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-600);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: var(--radius-5);
+  cursor: pointer;
+  transition: var(--transition-1);
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--gradient);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  box-shadow: var(--shadow-1);
+}
+
+.news-ticker {
+  margin-top: 2rem;
+  background-color: var(--white);
+  border-radius: var(--radius-10);
+  padding: 1rem;
+  box-shadow: var(--shadow-2);
+}
+
+.news-ticker h2 {
+  font-family: var(--ff-league_spartan);
+  font-size: var(--fs-4);
+  color: var(--kappel);
+  margin-bottom: 1rem;
+}
+
+.ticker-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.ticker-content {
+  display: flex;
+  animation: ticker 60s linear infinite;
+  white-space: nowrap;
+}
+
+.ticker-item {
+  display: inline-block;
+  padding: 0 2rem;
+  color: var(--eerie-black-2);
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: var(--fs-2);
+  }
+
+  .subtitle {
+    font-size: var(--fs-5);
+  }
+
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+}

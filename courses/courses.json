@@ -1,0 +1,37 @@
+[
+  {
+    "heading": "Introduction to Web Development",
+    "link": "https://www.example.com/web-dev-intro",
+    "cost": "Free",
+    "duration": "6 weeks",
+    "for": "12th, Diploma"
+  },
+  {
+    "heading": "Advanced JavaScript",
+    "link": "https://www.example.com/advanced-js",
+    "cost": "$49.99",
+    "duration": "8 weeks",
+    "for": "Engineering, Diploma"
+  },
+  {
+    "heading": "Data Science Fundamentals",
+    "link": "https://www.example.com/data-science-basics",
+    "cost": "Free",
+    "duration": "10 weeks",
+    "for": "Engineering"
+  },
+  {
+    "heading": "Mobile App Development with React Native",
+    "link": "https://www.example.com/react-native",
+    "cost": "$79.99",
+    "duration": "12 weeks",
+    "for": "Engineering"
+  },
+  {
+    "heading": "Digital Marketing Essentials",
+    "link": "https://www.example.com/digital-marketing",
+    "cost": "$29.99",
+    "duration": "4 weeks",
+    "for": "12th, Diploma, Engineering"
+  }
+]

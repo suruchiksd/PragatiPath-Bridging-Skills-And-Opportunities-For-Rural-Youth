@@ -1,0 +1,43 @@
+{
+  "scholarships": [
+    {
+      "name": "AI for Good Scholarship",
+      "description": "For students pursuing studies in Artificial Intelligence with a focus on social impact.",
+      "amount": "$10,000",
+      "deadline": "2023-12-31",
+      "eligibility": ["Artificial Intelligence", "Machine Learning"]
+    },
+    {
+      "name": "Data Science Excellence Award",
+      "description": "Supports outstanding students in Data Science and related fields.",
+      "amount": "$7,500",
+      "deadline": "2023-11-30",
+      "eligibility": ["Data Science", "Machine Learning", "Python programming"]
+    },
+    {
+      "name": "Web Developers of Tomorrow Scholarship",
+      "description": "Encourages students to pursue careers in Web Development and create innovative online solutions.",
+      "amount": "$5,000",
+      "deadline": "2024-01-15",
+      "eligibility": ["Web Development", "Python programming"]
+    },
+    {
+      "name": "Python Innovators Grant",
+      "description": "Rewards students who demonstrate exceptional skills in Python programming across various domains.",
+      "amount": "$6,000",
+      "deadline": "2024-02-28",
+      "eligibility": ["Python programming", "Data Science", "Web Development"]
+    },
+    {
+      "name": "Machine Learning Research Scholarship",
+      "description": "Supports graduate students conducting research in Machine Learning and its applications.",
+      "amount": "$12,000",
+      "deadline": "2023-10-31",
+      "eligibility": [
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Data Science"
+      ]
+    }
+  ]
+}
